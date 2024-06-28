@@ -1,0 +1,25 @@
+.custom-mt-top{
+    margin-top: 200px
+
+}
+.custom-h-w{
+    height: 550px;
+    width: 400px;
+}
+
+.custom-w{
+    width: 900px;
+    height: 35px;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
